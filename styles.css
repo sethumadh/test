@@ -52,9 +52,43 @@ nav a:hover{
 a.tw
 {
 
-    background: url()
+    background: url(tw.png) no-repeat center;
+    background-size: 80%;
 
 }
+a.fb
+{
+
+    background: url(fb.png) no-repeat center;
+    background-size: 80%;
+
+}
+  
+
+
+nav ul.social a{
+
+    text-indent: -10000px;
+   
+   }
+
+
+
+   nav ul.social
+   {
+flex: 1 1 0;
+max-width:80px;
+margin:0 auto;
+display: flex;
+
+   }
+
+
+.social li{
+
+    flex:1 1 0;
+}
+
 
 /* flex base style*/
 
@@ -80,4 +114,7 @@ nav{
     justify-content: space-between;
 
 }
+nav ul.social{margin-top:15px;margin-right: 0;}
+
+
 }
